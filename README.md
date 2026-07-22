@@ -1,3 +1,15 @@
+<div align="center">
+
+# 🚀 Project Freedom
+
+**Open-source AI-powered productivity platform**
+
+A modern productivity platform built with React, FastAPI and PostgreSQL.
+
+</div>
+## 📸 Preview
+
+Coming soon...
 # 🚀 Project Freedom
 
 > An open-source, AI-powered productivity platform designed for task management, collaboration, and intelligent automation.
