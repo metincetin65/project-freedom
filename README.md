@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="ChatGPT Image 22 Tem 2026 15_53_39" src="https://github.com/user-attachments/assets/2bbc4b91-7119-4b5b-9362-1d53a4b19973" />
+
 # 🚀 Project Freedom
 
 <div align="center">
