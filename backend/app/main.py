@@ -1,16 +1,15 @@
 from fastapi import FastAPI
 
-app = FastAPI(
-    title="Project Freedom",
-    description="Open Source AI Productivity Platform",
-    version="0.1.0"
-)
+from app.database.database import create_tables
+
+app = FastAPI()
+
+
+@app.on_event("startup")
+def startup():
+    create_tables()
 
 
 @app.get("/")
 def root():
-    return {
-        "project": "Project Freedom",
-        "status": "running",
-        "version": "0.1.0"
-    }
+    return {"message": "Project Freedom API"}
